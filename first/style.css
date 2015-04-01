@@ -1,0 +1,63 @@
+/* red #D0021B blue #4A90E2 grey #4A4A4A */
+html, body {
+	height:100%;
+	width:1000px;
+}
+.parent {
+	height:100%;
+	margin:5px;
+	width: 1000px;
+}
+.top {
+	height:175px;
+	margin:5px;
+	width:32%;
+	float: left;
+}
+.topleft {
+	background: #D0021B;
+}
+.topmiddle {
+	background: #4A90E2;
+}
+.topright {
+	background: #4A4A4A;
+}
+.text {
+	height:525px;
+	text-align: left;
+	font-size: 30px;
+}
+.middle {
+	height:415px;
+	margin:5px 0px;
+	float:left;
+	width:100%;
+}
+.middleleft {
+	background: #D0021B;
+	width:325px;
+}
+.middleright {
+	background: #4A90E2;
+	width:650px;
+}
+.bottom {
+	height:175px;
+	margin:5px 0px;
+	float:left;
+}
+.bottomleft {
+	background: #4A90E2;
+	width:660px;
+}
+.bottomright {
+	background: #D0021B;
+	width:315px;
+}
+.bottominset {
+	background: #4A4A4A;
+	width:220px;
+	margin: 0px 50px;
+
+}
