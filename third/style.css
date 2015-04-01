@@ -1,0 +1,44 @@
+html, body {
+	height:100%;
+	width:1020px;
+}
+header {
+	background:#333333;
+	height:100px;
+	width:100%;
+}
+a {
+	color:#FFFFFF;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: sans-serif;
+	margin: 40px;
+	float:left;
+}
+.body {
+	height:1200px;
+	width:1020px;
+	display:flex;
+	flex-flow:column wrap;
+	margin:75px 55px;
+}
+.content {
+	width:450px;
+}
+h1 {
+	font-size: 50px;
+}
+p {
+	font-size: 20px;
+	text-align: justify;
+}
+.img {
+	background:#D8D8D8;
+	height: 340px;
+	width: 450px;
+}
+footer {
+	background: #333333;
+	height:100px;
+	width:100%;
+}
