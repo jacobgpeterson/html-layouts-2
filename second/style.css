@@ -1,0 +1,82 @@
+html, body {
+	height:100%;
+	width:100%;
+}
+.parent {
+	height:1400px;
+	width:1025px;
+	background: #D8D8D8;
+	position:relative;
+}
+.top {
+	background:#FFFFFF;
+	margin:45px 75px ;
+	position:absolute;
+	width:850px;
+	height:385px;
+
+}
+p{
+	font-size:20px;
+	font-family: Geneva;
+	margin:45px 35px;
+}
+.button {
+	height:70px;
+	width:180px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Geneva;
+}
+.buttonred{
+	background: #B40404;
+	float:left;
+	margin: 0px 15px 35px 35px;
+}
+.buttonblue {
+	background: #2E9AFE;
+	float:left;
+	margin: 0px 35px 35px 15px;
+}
+.bottom {
+	background:#FFFFFF;
+	height:765px;
+	width:850px;
+	margin:475px 75px 60px 75px;
+	clear:both;
+	position:absolute;
+}
+.imgBox {
+	background: #FFFFFF;
+	height:425px;
+	width:760px;
+	margin:40px;
+}
+img {
+	max-height:100%;
+	max-width:100%;
+	margin:0px 40px;
+}
+footer {
+	background: #1C1C1C;
+	height: 90px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+}
+a {
+	color:#FFFFFF;
+	text-decoration: none;
+	font-size: 30px;
+}
+.apple {
+	position:absolute;
+	bottom:24px;
+	right:235px;
+}
+.google {
+	position:absolute;
+	bottom:24px;
+	right:100px;
+}
